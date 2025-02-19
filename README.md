@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin involving `ConcurrentModificationException` when modifying a list during iteration.  The `bug.kt` file shows the problematic code, while `bugSolution.kt` provides a safer, more efficient solution using the `removeIf` function.  Always use safer methods when modifying collections while iterating to avoid unexpected exceptions.
